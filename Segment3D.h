@@ -12,9 +12,9 @@ public:
 	void setTo(Vector3D to);
 	Vector3D getTo();
 	Vector3D getFrom();
-	void printEndCoordinates();//печатает координаты отрезка
+	void printEndCoordinates();//РїРµС‡Р°С‚Р°РµС‚ РєРѕРѕСЂРґРёРЅР°С‚С‹ РєРѕРЅС†РѕРІ РѕС‚СЂРµР·РєР°
 	bool equals(Segment3D second);
-	Vector3D getDirectionVector();//возвращает направляющий вектор отрезка
-	double getLength();//возвращает длину отрезка
+	Vector3D getDirectionVector();//РІРѕР·РІСЂР°С‰Р°РµС‚ РЅР°РїСЂР°РІР»СЏСЋС‰РёР№ РІРµРєС‚РѕСЂ РѕС‚СЂРµР·РєР°
+	double getLength();//РІРѕР·РІСЂР°С‰Р°РµС‚ РґР»РёРЅСѓ РѕС‚СЂРµР·РєР°
 };
 
