@@ -14,8 +14,8 @@ public:
 	double getX();
 	double getY();
 	double getZ();
-	double distanse(Vector3D second);//возвращает расстояние до другой точки
-	void printCoordinates();//печатает координаты точки
+	double distanse(Vector3D second);//РІРѕР·РІСЂР°С‰Р°РµС‚ СЂР°СЃСЃС‚РѕСЏРЅРёРµ РґРѕ РґСЂСѓРіРѕР№ С‚РѕС‡РєРё
+	void printCoordinates();//РїРµС‡Р°С‚Р°РµС‚ РєРѕРѕСЂРґРёРЅР°С‚С‹ С‚РѕС‡РєРё
 	vector<double> getCoordinates();
 	bool equals(Vector3D second);
 	void setX(double x);
