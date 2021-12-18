@@ -34,7 +34,7 @@ Intersector::Intersector(Vector3D a, Vector3D b, Vector3D c, Vector3D d) {
 }
 
 
-//Решение системы методом крамера
+//СЂРµС€РµРЅРёРµ СЃРёСЃС‚РµРјС‹ РјРµС‚РѕРґРѕРј РљСЂР°РјРµСЂР°
 vector<double> Intersector::kramer(vector<double> a, vector<double> b, vector<double> c, vector<double> d, int var1, int var2)
 {
 	vector<double> exit = { -1, -1 };
